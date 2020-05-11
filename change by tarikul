@@ -1,0 +1,9 @@
+1. List not generating: uncemment 1 line(585) of tickets.class
+2. Pie chart closed item removed from index.php. Uncomment Line-127,177,178,179,193.
+3. Pie chart calculation inclueding inprogress & waiting. Add rule at line-185 [(round($tick['inprogress']) ? 1 : 0) + (round($tick['waiting']) ? 1 : 0)]
+4. Ad icon on img. ticketsup.png & ticketups32.png
+5. change public interface color. Adding color "color: #333333;" at L-107. Addind background at L-118 "background: none repeat scroll 0% 0% rgb(252, 245, 184);". Adding border at L-119 "border: 1px solid rgb(188, 169, 54);".
+6. List Statut spelling correct at L-110 of list.php
+7. To disable extra field on new ticket page, change new.php L-87, extrafields =0
+8. Change all dol_now('***') to dol_now() in Class.ticketsup.php. 
+
